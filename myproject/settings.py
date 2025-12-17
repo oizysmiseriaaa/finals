@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 #       'USER': 'root',
 #       'PASSWORD': 'Javier_sheananikarojo102306',
 #       'HOST': 'localhost',
-#       'PORT': '3306',
+#       'PORT': '3333',
 #    }
 # }
 
@@ -164,4 +164,5 @@ STATIC_URL = "static/"
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
